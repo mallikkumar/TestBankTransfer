@@ -30,7 +30,7 @@ public class BankTransferController {
 	 * Gets the list of all the accounts in the bank
 	 * @return List<Account> 
 	 */
-	@GetMapping("/allAccounts")
+	@GetMapping("/getAllAccounts")
 	public List<Account> getAllAccounts() {
 		return service.getAllAccounts();
 	}
@@ -39,7 +39,7 @@ public class BankTransferController {
 	 * This method gets the list of all the bank transfer transactions
 	 * @return List<Transaction>
 	 */
-	@GetMapping("/allTransactions")
+	@GetMapping("/getAllTransactions")
 	public List<Transaction> getAllTransactions() {
 		return service.getAllTransactions();
 	}
