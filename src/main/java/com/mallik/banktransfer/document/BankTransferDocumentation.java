@@ -19,6 +19,6 @@ public class BankTransferDocumentation {
 	@Bean
 	public Docket bankTransferApi() {
 		return new Docket(DocumentationType.SWAGGER_2).select().
-				apis(RequestHandlerSelectors.basePackage("com.nw.banktransfer.controller")).build();
+				apis(RequestHandlerSelectors.basePackage("com.mallik.banktransfer.controller")).build();
 	}
 }
